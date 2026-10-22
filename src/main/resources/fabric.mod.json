@@ -15,16 +15,10 @@
 			"com.example.client.AltAsCtrlClient"
 		]
 	},
-	"mixins": [
-		{
-			"config": "alt-as-ctrl.client.mixins.json",
-			"environment": "client"
-		}
-	],
 	"depends": {
-		"fabricloader": ">=0.14.21",
-		"minecraft": ">=1.19.2 <1.21.9",
-		"java": ">=17",
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
 		"fabric-api": "*"
 	}
 }
